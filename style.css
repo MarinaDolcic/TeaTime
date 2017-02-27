@@ -27,6 +27,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+/*    overflow-x: hidden;*/
 }
 
 header {
@@ -235,7 +236,8 @@ p {
 }
 
 #rings {
-    padding: 7vh 40vw 3vh 40vw;
+    padding: 7vh 0 3vh 0;
+    margin: 0 auto;
     height: auto;
     width: 20vw;
 }
@@ -302,7 +304,6 @@ p {
 }
 
 #footer-wrapper {
-    width: 100vw;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -347,7 +348,6 @@ p {
 
 
 .social-btns-wrapper {
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

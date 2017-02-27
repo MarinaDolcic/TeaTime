@@ -86,7 +86,7 @@
 /* start of events section*/
 
 .eventContainer {
-    width: 100vw;
+    width: 100%;
     height: 65vh;
 }
 
@@ -190,7 +190,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 4vh;
 }
 
@@ -207,10 +207,10 @@
 
 .calendar-btn-style {
     border: 3px solid;
-    border-color: Black;
+    border-color: #23292D;
     margin: 40px 0;
     padding: 4px;
-    color: Black;
+    color: #23292D;
     font-family: "Lato Black", Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.25em;
@@ -226,7 +226,7 @@
     border-color: #C9A43D;
 */
     color: #ffffff;
-    background-color: black;
+    background-color: #23292D;
 }
 
 
@@ -255,7 +255,7 @@
 @media only screen and (max-width: 769px) {
     .eventContainer {
         display: block;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         margin: 0 auto;
     }
