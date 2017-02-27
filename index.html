@@ -1,119 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,400|Ubuntu:300,500" rel="stylesheet">
-	<meta name="description" content="">
-	<meta name="keywords" content=""> 
-	<meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="dori-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Ubuntu:300,500" rel="stylesheet">
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
 </head>
 
 
 <body>
 
-<header>
+    <header>
 
-	<div id="logo"><img src="logo.png"></div>
-	<div id="navigation">
-		<div id="top_nav">
-			<nav id="main" >
-				<a href="">VISIT</a>
-				<a href="">LEARN</a>
-				<a href="">SUPPORT US</a>
-			</nav>
-			<nav id="lang">
-				<a href="">DK</a> 
-				
-				<a href="">EN</a>
-				
-				<a href="">DE</a>
-			</nav>
-			<div id="search_box"><p>SEARCH&nbsp;></p></div>
-			<div class="social_btns"><img src="fb.png"><img src="instagram.png"></div>
-		</div>
+        <a href="#landing"><div id="logo"><img src="images/logo2.png"></div></a>
+        <div id="navigation">
+            <div id="top_nav">
+                <nav id="main">
+                    <a href="">VISIT</a>
+                    <a href="">LEARN</a>
+                    <a href="">SUPPORT US</a>
+                </nav>
+                <nav id="lang">
+                    <a href="">DK</a>
 
-		<nav id="sub">
-			<a href="">Info</a>
-			<a href="">Featured event</a>
-			<a href="">Upcoming events</a>
-			<a href="">Iron age vacation</a>
-			<a href="">Connect</a>
-		</nav>
-	</div>
-</header>
+                    <a href="">EN</a>
 
-<main>
-	<section id="landing">
-		<div id="land_intro">
-			<h2>WELCOME TO ODINS ODENSE!</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		</div>
-	</section>
+                    <a href="">DE</a>
+                </nav>
 
-	<section id="intro">
-		<img src="rings.png" id="rings">
-		<div id="intro_text">
-			<h1>EXPLORE YOUR PAST</h1>
-			<p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nibh euismod tincidunt ut laoreet dolore magna aliquam erat facilis.</p>
-		</div>
-		<img src="family.png" id="family_img">
+                <div id="search_box">
+                    <p>SEARCH&nbsp;></p>
+                </div>
 
-	</section>
+                <div class="social_btns"><img src="images/fb.png"><img src="images/instagram.png"></div>
+            </div>
 
-	<section id="info"></section>
+            <nav id="sub">
+                <a href="#family_img">Info</a>
+                <a href="#charge_img">Events</a>
+                <a href="#vacation">Iron age vacation</a>
+                <a href="#connect">Connect</a>
+            </nav>
+        </div>
 
-	<section id="feat_event">
-		<div id="f_ev_text">
-			<h1>JOIN US AT THE VIKING MARKET!</h1>
-			<h2>20.-21.5.2017.</h2>
-			<p>Join us for two glorious days of fighting, feasting, drinking and trading goods and get in touch with your inner viking.</p>
-			<h3>Prices and opening times</h3>
-		</div>
-		<img src="charge.png" id="charge_img">
-	</section>
+        <!--           burgermenu for mobile    -->
+        <img class="burger-nav" src="images/burger-menu.png">
 
-	<section id="upc_event"></section>
+        <div id="burgermenu">
+            <nav id="burger-main">
+                <ul class="burger-primary-nav">
+                    <li><a href="#">HOME</a>
+                        <ul class="burger-sub-nav">
+                            <li><a href="#family_img">Info</a></li>
+                            <li><a href="#charge_img">Events</a></li>
+                            <li><a href="#vacation">Iron age vacation</a></li>
+                            <li><a href="#connect">Connect</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#family_img">VISIT</a></li>
+                    <li><a href="">LEARN</a></li>
+                    <li><a href="">SUPPORT US</a></li>
+                </ul>
+            </nav>
+            <nav id="burger-lang">
+                <a href="">DK</a>
 
-	<section id="vacation"></section>
+                <a href="">EN</a>
+
+                <a href="">DE</a>
+            </nav>
+        </div>
+        <!--                end of burgermenu    -->
+
+    </header>
+
+    <main>
+        <section id="landing">
+            <div id="land_intro">
+                <h2>WELCOME TO ODINS ODENSE!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </section>
+
+        <section id="intro">
+            <img src="images/rings.png" id="rings">
+            <div id="intro_text">
+                <h1>EXPLORE YOUR PAST</h1>
+                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nibh euismod tincidunt ut laoreet dolore magna aliquam erat facilis.</p>
+            </div>
+            <div  id="family_img"></div>
+
+        </section>
+
+        <section id="info">
+            <div class="pris-flex-container">
+                <div class="pris-flex-item">
+                    <img class="circle-icon" src="images/Ring%20symbols-02.png" alt="Ring Symbol">
+
+                    <div class="center-content">
+                        <div class="center-width pris-headline">Priser</div>
+                        <div class="center-width pris-bodytext">
+                            <b>1. marts – 7. april</b>
+                            <br> - Voksne 40 kr. Børn over sværdhøjde 20 kr.
+                            <br>
+                            <br> <b>8. april – 22. oktober</b>
+                            <br> - Voksne 60 kr. Børn over sværdhøjde 30 kr.
+                        </div>
+                    </div>
+                </div>
+                <div class="pris-flex-item">
+                    <img class="circle-icon" src="images/Ring%20symbols-03.png" alt="Ring Symbol">
+
+                    <div class="center-content">
+                        <div class="center-width pris-headline">Åbningstider</div>
+                        <div class="center-width pris-bodytext">
+                            <b>1. marts – 7. april</b>
+                            <br> - hverdage 10 – 14, fredag lukket.
+                            <br>
+                            <br> <b>8. april – 22. oktober</b>
+                            <br> - lørdag - torsdag 10 – 16, fredag lukket.
+                        </div>
+                    </div>
+                </div>
+                <div class="pris-flex-item">
+                    <img class="circle-icon" src="images/Ring%20symbols-04.png" alt="Ring Symbol">
+
+                    <div class="center-content">
+                        <div class="center-width pris-headline">Hvor er vi?</div>
+                        <div class="center-width pris-bodytext">
+                            <b>STORE KLAUS 40  <br><br>  DK-5270 ODENSE N</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="feat_event">
+            <div id="charge_img"></div>
+            <div id="f_ev_text">
+                <h1>JOIN US AT THE VIKING MARKET!</h1>
+                <h2>20.-21.5.2017.</h2>
+                <p>Join us for two glorious days of fighting, feasting, drinking and trading goods and get in touch with your inner viking.</p>
+                <h3>Admission fees and opening times</h3>
+            </div>
+        </section>
+
+        <section id="upc_event">
+            <div class="goldenborder"></div>
+            <div class="eventContainer">
+                <div class="bigEvent eventHover" onclick=openStory(1)>
+                    <img class="imageCenter" src="images/market.png">
+                    <div class="eventGradient">
+                        <div class="headerBigEvent"><b>Iron Age Market</b></div>
+                    </div>
+                </div>
+                <div class="smallEvent eventHover" onclick=openStory(2)>
+                    <img class="imageCenter" src="images/summer.jpg">
+                    <div class="eventGradient">
+                        <div class="headerSmallEvent"><b>Summer Festival</b></div>
+                    </div>
+                </div>
+                <div class="smallEvent eventHover" onclick=openStory(3)>
+                    <img class="imageCenter" src="images/bard.png">
+                    <div class="eventGradient">
+                        <div class="headerSmallEvent"><b>Bard Festival</b></div>
+                    </div>
+                </div>
+                <div class="smallEvent eventHover" onclick=openStory(4)>
+                    <img class="imageCenter" src="images/winter.png">
+                    <div class="eventGradient">
+                        <div class="headerSmallEvent"><b>Winter Solstice</b></div>
+                    </div>
+                </div>
+                <div class="smallEvent eventHover" onclick=openStory(5)>
+                    <img class="imageCenter" src="images/phoca_thumb_l_339.jpg">
+                    <div class="eventGradient">
+                        <div class="headerSmallEvent"><b>Blót</b></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span> Iron Age Market
+                    </div>
+                    <img class="modal-image" src="images/market.png">
+                    <div class="modal-body">
+                        <p>The Viking market is a yearly event held in May</p>
+                        <p>Here you can see many Iron Age craftsmen display and selling authentic items</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="goldenborder"></div>
+
+            <div id="calendar-btn"><a href="" class="calendar-btn-style">See Calendar</a></div>
+        </section>
+
+        <section id="connect">
+            <div id="social">
+                <h2>CONNECT WITH ODINS ODENSE</h2>
+                <p>Follow us on Facebook to get the latest news and see the latest photos and videos!</p>
+                <div id="gold_btns">
+                    <img src="images/fb_gold.png" class="gold_btn">
+                    <img src="images/instagram_gold.png" class="gold_btn">
+                </div>
+            </div>
+            <div id="shield"></div>
+            <div id="support">
+                <p>The existance of Odins Odense depends on the support of our community, please check what you can do to make sure this place is preserved for generations to come!</p>
+                <div id="support_btns">
+                    <div class="support_btn">
+                        <a href="#">Become a sponsor!</a>
+                    </div>
+                    <div class="support_btn">
+                        <a href="#">Become a volunteer!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-<!-- Needs styling!!!  -->
+        <section id="visit">
+        <div class="visit_columns" id="visit_vacation">
+            <div class="visit_text">
+                <h2>Vacation in the Iron age village</h2>
+                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <a href="" title="Vacation in the Iron age village" class="visit_links">Read more...</a>
+            </div>
+        </div>
+        <div class="visit_columns" id="visit_tours">
+            <div class="visit_text">
+                <h2>Guided tours</h2>
+                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <a href="" title="Guided tours" class="visit_links">Read more...</a>
+            </div>
+        </div>
+        <div class="visit_columns" id="visit_school">
+            <div class="visit_text">
+                <h2>School trips</h2>
+                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <a href="" title="School trips" class="visit_links">Read more...</a>
+            </div>
+        </div>
+        </section>
 
-	<section id="connect">
-		<div id="social">
-			<h2>CONNECT WITH ODINS ODENSE</h2>
-			<p>Follow us on Facebook to get the latest news and see the latest photos and videos!</p>
-			<div class="social_btns" id="gold">
-				<img src="">
-				<img src="">
-			</div>
-		</div>
-		<img src="shield.png" id="shield">
-		<div id="support">
-			<p>The existance of Odins Odense depends on the support of our community, please check what you can do to make sure this place is preserved for generations to come!</p>
-			<div id="support_btns">
-				<div class="support_btn">
-					<p>Become a sponsor!</p>
-				</div>
-				<div class="support_btn">
-					<p>Become a volunteer!</p>
-				</div>
-			</div>
-		</div>
+        <footer>
+            <div id="footer-wrapper">
+                <div id="footer_info" class="footer_columns">
+                    <h3>General info</h3>
+                    <ul>
+                        <li> Store klaus 40, 5270 Odense N, Danmark</li>
+                        <li>+45 63 75 57 80</li>
+                        <li>mail@mail.dk</li>
+                    </ul>
+                </div>
+                <div id="footer_open" class="footer_columns">
+                    <h3>Opening hours</h3>
+                    <ul>
+                        <li>1. marts – 7. april hverdage 10 – 14, fredag lukket.</li>
+                        <li>8. april – 22. oktober lørdag - torsdag 10 – 16, fredag lukket.</li>
+                        <li>3. oktober - 16. december hverdage 10 – 14, fredag lukket.</li>
+                        <li>19. december - 10. februar 2018 lukket - åbent efter aftale.</li>
+                    </ul>
+                </div>
+                <div id="footer_prices" class="footer_columns">
+                    <h3>Admision fee</h3>
+                    <ul>
+                        <li>1. marts – 7. april og 3. oktober - 16. december Voksne 40 kr. Børn 20 kr.</li>
+                        <li>8. april – 22. oktober lørdag - torsdag 10 – 16, fredag lukket. Voksne 60 kr. Børn 30 kr.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-btns-wrapper">
+                <div class="social_btns"><img src="images/fb.png"><img src="images/instagram.png"></div>
+            </div>
 
-	</section>
+        </footer>
 
-	<section id="support"></section>
+    </main>
 
-	<footer></footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <script src="parallax.min.js"></script>
+    <script src="menu.js"></script>
+    <script>
+        function openStory() {
 
-</main>
+            $('#myModal').fadeIn();
+            return false;
+        };
+        $('.close').click(function () {
+            $('#myModal').fadeOut();
+            return false;
+        });
 
-
-
-
+        $('#myModal').click(function () {
+            $('#myModal').fadeOut();
+            return false;
+        });
+    </script>
 
 
 </body>
