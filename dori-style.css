@@ -86,7 +86,7 @@
 /* start of events section*/
 
 .eventContainer {
-    width: 100vw;
+    width: 100%;
     height: 65vh;
 }
 
@@ -190,7 +190,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 4vh;
 }
 
@@ -254,7 +254,7 @@
 @media only screen and (max-width: 769px) {
     .eventContainer {
         display: block;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         margin: 0 auto;
     }
