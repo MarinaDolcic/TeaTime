@@ -18,11 +18,7 @@ body {
     margin: 0;
     max-width: 100vw;
     padding: 0;
-<<<<<<< Updated upstream
-/*    overflow-x: hidden;*/
-=======
 
->>>>>>> Stashed changes
 }
 
 header {
@@ -313,15 +309,15 @@ p {
 }
 
 #footer-wrapper {
-<<<<<<< Updated upstream
+
+  
+
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-=======
-    width: 100vw;
->>>>>>> Stashed changes
+
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
@@ -359,12 +355,10 @@ p {
 
 
 .social-btns-wrapper {
-<<<<<<< Updated upstream
+
     display: flex;
     flex-direction: row;
-=======
-    width: 100vw;
->>>>>>> Stashed changes
+
     justify-content: space-around;
 }
 

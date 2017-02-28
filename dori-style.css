@@ -86,7 +86,7 @@
 /* start of events section*/
 
 .eventContainer {
-    width: 100%;
+    width: 100vw;
     height: 65vh;
 }
 
@@ -190,7 +190,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 4vh;
 }
 
@@ -207,13 +207,10 @@
 
 .calendar-btn-style {
     border: 3px solid;
-    border-color: #23292D;
+    border-color: Black;
     margin: 40px 0;
     padding: 4px;
-<<<<<<< Updated upstream
-    color: #23292D;
-=======
->>>>>>> Stashed changes
+
     font-family: "Lato Black", Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.25em;
@@ -228,13 +225,7 @@
     color: #C9A43D;
     border-color: #C9A43D;
 */
-<<<<<<< Updated upstream
-    color: #ffffff;
-    background-color: #23292D;
-=======
-    color: #fff;
-    background-color: black;
->>>>>>> Stashed changes
+
 }
 
 
@@ -263,7 +254,7 @@
 @media only screen and (max-width: 769px) {
     .eventContainer {
         display: block;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         margin: 0 auto;
     }
