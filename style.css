@@ -67,6 +67,7 @@ header,
     background-color: #9D1416;
 }
 
+.articles>a,
 #article_active>a,
 #f_ev_text>h1,
 .support_btn:hover>a  {
@@ -98,16 +99,6 @@ header,
 .article_theme,
 .visit_text>a {
     color: #D2AC2B;
-}
-
-.articles,
-.article_title,
-.footer_columns,
-.footer_columns>ul,
-.visit_columns,
-.visit_text {
-    display:flex;
-    flex-direction: column;
 }
 
 .center_txt,
@@ -211,7 +202,7 @@ p {
 
 
 #land_intro {
-    background-color: rgba(35,41,45,0.8);
+    background-color: rgba(35,41,45,0.8); /** transparent #23292D **/
     height: 15vh;
     margin-bottom: 4vh;
     padding: 3vh 8vw;
@@ -274,8 +265,10 @@ p {
     margin: 0 1vw;
 }
 
+.footer_columns>h5,
+.footer_columns>ul>li,
 #search_box>p,
-#top_nav>#main>a,
+#top_nav>#main_nav>a,
 #top_nav>#lang>a {
     color: #AFAFAF;
 }
@@ -340,12 +333,6 @@ p {
 .footer_columns>ul>li {
     font-size: 0.75em;
     font-weight: 300;
-}
-
-
-.footer_columns>h5,
-.footer_columns>ul>li {
-    color: #AFAFAF;
 }
 
 .gold_btn {
@@ -415,7 +402,7 @@ p {
 }
 
 .visit_text {
-    background-color: rgba(35,41,45,0.8);
+    background-color: rgba(35,41,45,0.8); /** transparent #23292D **/
     padding: 2vh;
     z-index: 2
 }
@@ -441,17 +428,13 @@ p {
 }
 
 .articles {
-    background-color: rgba(35,41,45,0.025);
+    background-color: rgba(35,41,45,0.025); /** transparent #23292D **/
     justify-content: space-around;
     height: auto;
     margin-bottom: 2%;
     order: 2;
     padding: 1%;
     width: 22%;
-}
-
-.articles>a {
-    color: #9D1416;
 }
 
 .articles>img {
@@ -478,7 +461,7 @@ p {
 /** id for the active article to be added with JS **/
 
 #article_active{
-    background-color: rgba(35,41,45,0.025);
+    background-color: rgba(35,41,45,0.025); /** transparent #23292D **/
     margin: 1%;
     order: 1;
     padding: 2%;
@@ -954,6 +937,8 @@ p {
 
 
 /** end of Dori-style **/
+
+
 
 @media only screen and (max-width: 650px) {
     #support_btns {
