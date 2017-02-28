@@ -81,7 +81,7 @@ header,
 #sub_nav>a,
 #support>p,
 .support_btn>a,
-.visit_text>h2,p {
+.visit_text>h4,p {
     color: #fff;
 }
 
@@ -126,6 +126,22 @@ header,
 #main_nav {
     justify-content: space-between;
 }
+
+/** styling for the 3 colum sections - prices and opening times, visit and footer **/
+
+.column_container{
+    padding: 2%;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.column_boxes {
+    overflow: hidden;
+    width: 30vw;
+}
+
+
 
 #lang a + a:before {
     content: " | ";
@@ -265,8 +281,8 @@ p {
     margin: 0 1vw;
 }
 
-.footer_columns>h5,
-.footer_columns>ul>li,
+.footer_text>h5,
+.footer_text>ul>li,
 #search_box>p,
 #top_nav>#main_nav>a,
 #top_nav>#lang>a {
@@ -301,36 +317,18 @@ p {
     justify-content: space-between;
 }
 
-#footer-wrapper {
-
-  
-
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.footer_columns {
-    width: 25vw;
-}
-
-.footer_columns>h5 {
+.footer_text>h5 {
     text-decoration: underline;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
 }
 
-.footer_columns>ul {
+.footer_text>ul {
     list-style: none;
     padding: 0;
 }
 
-.footer_columns>ul>li {
+.footer_text>ul>li {
     font-size: 0.75em;
     font-weight: 300;
 }
@@ -387,18 +385,12 @@ p {
     background-size: cover;
 }
 
-#visit {
-    justify-content: space-around;
-}
-
 .visit_columns {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     justify-content: flex-end;
     height: 75vh;
-    margin: 2vh 0;
-    width: 30vw;
 }
 
 .visit_text {
@@ -481,20 +473,13 @@ p {
 
 .pris-flex-container {
     background: #23292D;
-    padding: 5vh 0;
-    margin: 0;
-    list-style: none;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
 }
 
 .pris-flex-item {
-    width: 25vw;
     height: 400px;
     /* Change height when the text for the boxes are done */
     border: solid;
     border-color: #C9A43D;
-    overflow: hidden;
 }
 
 .circle-icon {
