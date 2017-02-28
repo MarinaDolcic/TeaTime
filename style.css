@@ -96,6 +96,7 @@ header,
 #f_ev_text>h2,
 #land_intro>h2,
 #intro_text>h1,
+#gold_btns>i,
 .article_theme,
 .visit_text>a {
     color: #D2AC2B;
@@ -125,6 +126,7 @@ header,
 
 #main_nav {
     justify-content: space-between;
+    width: 45%;
 }
 
 /** styling for the 3 colum sections - prices and opening times, visit and footer **/
@@ -140,8 +142,6 @@ header,
     overflow: hidden;
     width: 30vw;
 }
-
-
 
 #lang a + a:before {
     content: " | ";
@@ -208,8 +208,9 @@ p {
 }
 
 #gold_btns {
-    justify-content: center;
-    margin-top: 2vh;
+    font-size: 4em;
+    justify-content: space-around;
+    padding: 5% 40% 0 40%;
 }
 
 #intro_text {
@@ -241,6 +242,7 @@ p {
 
 #lang {
     justify-content: space-around;
+    width: 15%;
 }
 
 #logo {
@@ -283,6 +285,7 @@ p {
 
 .footer_text>h5,
 .footer_text>ul>li,
+.social_btns>i,
 #search_box>p,
 #top_nav>#main_nav>a,
 #top_nav>#lang>a {
@@ -302,6 +305,7 @@ p {
 
 #sub_nav {
     justify-content: space-between;
+    width: 100%;
 }
 
 #support>p {
@@ -310,12 +314,15 @@ p {
 
 #support_btns {
     justify-content: space-around;
-    padding: 5vh 0;
+    padding: 2% 20%;
 }
 
 #top_nav {
+    align-items: baseline;
     justify-content: space-between;
 }
+
+
 
 .footer_text>h5 {
     text-decoration: underline;
@@ -333,12 +340,6 @@ p {
     font-weight: 300;
 }
 
-.gold_btn {
-    height: 5vw;
-    width: 5vw;
-}
-
-
 .social-btns-wrapper {
 
     display: flex;
@@ -348,18 +349,17 @@ p {
 }
 
 .social_btns {
-    padding-top: 10px;
-    width: 15%;
+    width: 10%;
     justify-content: space-around;
+    text-align: center;
 }
 
-.social_btns>img {
-    height: 4vw;
-    width: 4vw;
+.social_btns>i {
+    font-size: 1.3em
 }
 
 .support_btn {
-    padding: 1vw;
+    padding: 3%;
     margin: 20px 0;
     font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 700;
@@ -651,8 +651,6 @@ p {
 }
 
 #calendar-btn {
-    list-style: none;
-    -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
 
