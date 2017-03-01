@@ -212,12 +212,6 @@ p {
 }
 
 #landing {
-    background-image: url("images/door.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 75% 20px;
-    background-attachment: fixed;
-    align-items: flex-end;
     height: 75vh;
     width: 100%;
 }
@@ -320,7 +314,7 @@ p {
                 margin-right: 15px;
             }
 
-#rings {
+#rings>img {
     padding: 7vh 0 3vh 0;
     margin: 0 auto;
     height: auto;
@@ -541,7 +535,7 @@ p {
     border-color: #C9A43D;
 }
 
-.circle-icon {
+.circle-icon>img {
     display: block;
     width: 50%;
     margin: 0 auto;
