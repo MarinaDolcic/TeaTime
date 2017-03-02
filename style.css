@@ -75,6 +75,34 @@ h4 {
     font-size: 1.3em;
 }
 
+#menu-odin-main-menu {
+                list-style-type: none;
+                justify-content: flex-end;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            
+            #menu-odin-main-menu li {
+                float: right;
+            }
+            
+            #menu-odin-main-menu li a {
+                display: block;
+                padding-right: 10px;
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            a:visited {
+                color: #fff;
+            }
+            
+            .logo-holder img {
+                height: 40px;
+                float: left;
+            }
+
 header,
 .support_btn {
     background-color: #9D1416;
@@ -150,8 +178,10 @@ p {
 }
 
 #main_nav {
+/*
     justify-content: space-between;
     width: 45%;
+*/
 }
 
 /** styling for the 3 colum sections - prices and opening times, visit and footer **/
@@ -266,8 +296,7 @@ p {
 }
 
 #lang {
-    justify-content: space-around;
-    width: 15%;
+                justify-content: flex-end;
 }
 
 #logo {
@@ -286,9 +315,10 @@ p {
 }
 
 #navigation {
-    justify-content: space-around;
-    width: 70%;
-}
+                justify-content: flex-end;
+                width: 80%;
+                margin-right: 15px;
+            }
 
 #rings {
     padding: 7vh 0 3vh 0;
@@ -329,9 +359,13 @@ p {
 }
 
 #sub_nav {
-    justify-content: space-between;
-    width: 100%;
-}
+                justify-content: flex-end;
+                padding-bottom: 15px;
+            }
+
+#sub_nav a {
+                margin-right: 13px;
+            }
 
 #support>p {
     font-weight: 700;
@@ -343,9 +377,9 @@ p {
 }
 
 #top_nav {
-    align-items: baseline;
-    justify-content: space-between;
-}
+                justify-content: flex-end;
+                margin-bottom: 20px;
+            }
 
 .footer_text>h5 {
     text-decoration: underline;
@@ -767,70 +801,88 @@ p {
     display: none;
 }
 
+#burger-sub-nav {
+                display: none;
+            }
+
 @media only screen and (max-width: 770px) {
     /*      Burger menu     */
-    #burgermenu {
-        height: 100vh;
-        z-index: 1;
-    }
-    #burgermenu.open {
-        width: 70%;
-        position: fixed;
-        right: 0;
-        display: block;
-    }
-    #burgermenu nav ul {
-        list-style-type: none;
-        overflow: hidden;
-        background: #505050;
-        padding: 0;
-    }
-    .burger-primary-nav {
-        margin-top: 60px;
-    }
-    #burgermenu nav ul li {
-        float: none;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-    }
-    #burgermenu nav ul li a {
-        color: #fff;
-        padding: 10px;
-        border-bottom: 1px solid #404040;
-        display: block;
-        margin: 0;
-    }
-    #burgermenu nav ul li ul li {
-        padding-left: 20px;
-    }
-    #burgermenu {
-        background-color: #404040;
-    }
-    .burger-nav {
-        position: fixed;
-        top: 0;
-        right: 30px;
-        display: block;
-        height: 30px;
-        cursor: pointer;
-        padding: 15px 0px;
-        z-index: 2;
-    }
-    header {
-        padding: 0;
-        width: 100vw;
-    }
-    #burger-lang {
-        text-align: center;
-    }
-    #burger-lang a + a:before {
-        content: " | ";
-        padding: 0 1vw;
-    }
-}
-
-
+    #menu-odin-main-menu #home-menu {
+                    display: block;
+                }
+                #burger-sub-nav {
+                    display: block;
+                }
+                #top_nav {
+                    height: 100vh;
+                    z-index: 1;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    display: none;
+                    background-color: #404040;
+                }
+                #top_nav.open {
+                    width: 70%;
+                    position: fixed;
+                    right: 0;
+                    display: block;
+                }
+                #top_nav nav ul {
+                    list-style-type: none;
+                    overflow: hidden;
+                    background: #505050;
+                    padding: 0;
+                }
+                #menu-odin-main-menu {
+                    margin-top: 70px;
+                }
+                #top_nav nav ul li {
+                    float: none;
+                    text-align: left;
+                    width: 100%;
+                    margin: 0;
+                }
+                #top_nav nav ul li a {
+                    color: #fff;
+                    padding: 10px 0 10px 30px;
+                    border-bottom: 1px solid #404040;
+                    display: block;
+                    margin: 0;
+                }
+                #top_nav nav ul li ul li {
+                    padding-left: 10px;
+                    background-color: #6c6a6a;
+                }
+                .burger-nav {
+                    top: 0;
+                    right: 30px;
+                    display: block;
+                    height: 25px;
+                    cursor: pointer;
+                    padding: 15px;
+                    z-index: 2;
+                }
+                header {
+                    padding: 0;
+                    width: 100%;
+                }
+                #burger-lang {
+                    padding-top: 40px;
+                    text-align: center;
+                }
+                #burger-lang a + a:before {
+                    content: " | ";
+                    padding: 0 1vw;
+                }
+                .social_btns {
+                    justify-content: center;
+                    margin-top: 10px;
+                }
+                #lang {
+                    justify-content: center;
+                    margin-top: 10px;
+                }
+            }
 /** end of Dori-style **/
 
 
@@ -852,11 +904,15 @@ p {
 
 @media only screen and (max-width: 770px) {
     #navigation {
-        display: none;
+                    flex-direction: row;
     }
+    #sub_nav {
+                    display: none;
+                }
     #logo {
-        height: 10vh;
-        margin-left: 5vw;
+        height: 70px;
+                    width: 70px;
+                    margin-left: 15px;
     }
     #logo>img {
         height: 75%;
