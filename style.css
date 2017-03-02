@@ -1,3 +1,15 @@
+/**
+ * Theme Name: Odins Odense
+ * Description: A website theme for the historical museum of odins Odense in Odense, Denmark
+ * Author: Halldór Hólm K Lyngmo and Marina Dolcic
+ * Author URI: http://doriholm.com/ and http://www.marina-dolcic.dk/
+ * Version: 1.0
+ */
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+
 a,
 footer>ul {
     text-decoration: none;
@@ -68,6 +80,7 @@ header,
     background-color: #9D1416;
 }
 
+.articles>a,
 #article_active>a,
 #f_ev_text>h1,
 .support_btn:hover>a {
@@ -81,7 +94,7 @@ header,
 #sub_nav>a,
 #support>p,
 .support_btn>a,
-.visit_text>h2,
+.visit_text>h4,
 p {
     color: #fff;
 }
@@ -97,6 +110,7 @@ p {
 #f_ev_text>h2,
 #land_intro>h2,
 #intro_text>h1,
+#gold_btns>i,
 .article_theme,
 .visit_text>a {
     color: #D2AC2B;
@@ -111,6 +125,7 @@ p {
     display: flex;
     flex-direction: column;
 }
+
 
 .center_txt,
 .center_txt>h2,
@@ -136,6 +151,21 @@ p {
 
 #main_nav {
     justify-content: space-between;
+    width: 45%;
+}
+
+/** styling for the 3 colum sections - prices and opening times, visit and footer **/
+
+.column_container{
+    padding: 2%;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.column_boxes {
+    overflow: hidden;
+    width: 30vw;
 }
 
 #lang a + a:before {
@@ -203,8 +233,9 @@ p {
 }
 
 #gold_btns {
-    justify-content: center;
-    margin-top: 2vh;
+    font-size: 4em;
+    justify-content: space-around;
+    padding: 5% 40% 0 40%;
 }
 
 #intro_text {
@@ -212,7 +243,8 @@ p {
 }
 
 #land_intro {
-    background-color: rgba(35, 41, 45, 0.8);
+
+   
     height: 15vh;
     margin-bottom: 4vh;
     padding: 3vh 8vw;
@@ -235,6 +267,7 @@ p {
 
 #lang {
     justify-content: space-around;
+    width: 15%;
 }
 
 #logo {
@@ -275,8 +308,11 @@ p {
     margin: 0 1vw;
 }
 
+.footer_text>h5,
+.footer_text>ul>li,
+.social_btns>i,
 #search_box>p,
-#top_nav>#main>a,
+#top_nav>#main_nav>a,
 #top_nav>#lang>a {
     color: #AFAFAF;
 }
@@ -294,6 +330,7 @@ p {
 
 #sub_nav {
     justify-content: space-between;
+    width: 100%;
 }
 
 #support>p {
@@ -302,52 +339,30 @@ p {
 
 #support_btns {
     justify-content: space-around;
-    padding: 5vh 0;
+    padding: 2% 20%;
 }
 
 #top_nav {
+    align-items: baseline;
     justify-content: space-between;
 }
 
-#footer-wrapper {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.footer_columns {
-    width: 25vw;
-}
-
-.footer_columns>h5 {
+.footer_text>h5 {
     text-decoration: underline;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
 }
 
-.footer_columns>ul {
+.footer_text>ul {
     list-style: none;
     padding: 0;
 }
 
-.footer_columns>ul>li {
+.footer_text>ul>li {
     font-size: 0.75em;
     font-weight: 300;
 }
 
-.footer_columns>h5,
-.footer_columns>ul>li {
-    color: #AFAFAF;
-}
-
-.gold_btn {
-    height: 5vw;
-    width: 5vw;
-}
 
 .social-btns-wrapper {
     display: flex;
@@ -356,18 +371,17 @@ p {
 }
 
 .social_btns {
-    padding-top: 10px;
-    width: 15%;
+    width: 10%;
     justify-content: space-around;
+    text-align: center;
 }
 
-.social_btns>img {
-    height: 4vw;
-    width: 4vw;
+.social_btns>i {
+    font-size: 1.3em
 }
 
 .support_btn {
-    padding: 1vw;
+    padding: 3%;
     margin: 20px 0;
     font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 700;
@@ -393,22 +407,16 @@ p {
     background-size: cover;
 }
 
-#visit {
-    justify-content: space-around;
-}
-
 .visit_columns {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     justify-content: flex-end;
     height: 75vh;
-    margin: 2vh 0;
-    width: 30vw;
 }
 
 .visit_text {
-    background-color: rgba(35, 41, 45, 0.8);
+
     padding: 2vh;
     z-index: 2
 }
@@ -435,17 +443,13 @@ p {
 }
 
 .articles {
-    background-color: rgba(35, 41, 45, 0.025);
+
     justify-content: space-around;
     height: auto;
     margin-bottom: 2%;
     order: 2;
     padding: 1%;
     width: 22%;
-}
-
-.articles>a {
-    color: #9D1416;
 }
 
 .articles>img {
@@ -474,7 +478,7 @@ p {
 /** id for the active article to be added with JS **/
 
 #article_active {
-    background-color: rgba(35, 41, 45, 0.025);
+    
     margin: 1%;
     order: 1;
     padding: 2%;
@@ -494,20 +498,13 @@ p {
 
 .pris-flex-container {
     background: #23292D;
-    padding: 5vh 0;
-    margin: 0;
-    list-style: none;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
 }
 
 .pris-flex-item {
-    width: 25vw;
     height: 400px;
     /* Change height when the text for the boxes are done */
     border: solid;
     border-color: #C9A43D;
-    overflow: hidden;
 }
 
 .circle-icon {
@@ -679,8 +676,6 @@ p {
 }
 
 #calendar-btn {
-    list-style: none;
-    -webkit-flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -837,6 +832,8 @@ p {
 
 
 /** end of Dori-style **/
+
+
 
 @media only screen and (max-width: 650px) {
     #support_btns {
