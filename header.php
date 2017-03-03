@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Ubuntu:300,500" rel="stylesheet">
+    <script src="https://use.fontawesome.com/b3185cef53.js"></script>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
