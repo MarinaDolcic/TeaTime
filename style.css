@@ -798,6 +798,9 @@ p {
 #burger-sub-nav {
                 display: none;
             }
+#home-menu {
+                display: none;
+            }
 
 @media only screen and (max-width: 770px) {
     /*      Burger menu     */

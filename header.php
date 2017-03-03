@@ -10,8 +10,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/functions.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/functions.js"></script>
 
     <?php wp_head(); ?>
 </head>
