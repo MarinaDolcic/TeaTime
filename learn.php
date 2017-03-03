@@ -1,3 +1,5 @@
+<?php /* Template Name: learn */ ?>
+
 <?php get_header(); ?>
 
     <main>
@@ -14,72 +16,6 @@
                 <a href="">Read more...</a>
             </div>
             <div id="article_active">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
-                <img src="images/placeholder.png">
-                <h2>Guided tours</h2>
-                <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <a href="">Read more...</a>
-            </div>
-            <div class="articles flex column">
                 <img src="images/placeholder.png">
                 <h2>Guided tours</h2>
                 <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
